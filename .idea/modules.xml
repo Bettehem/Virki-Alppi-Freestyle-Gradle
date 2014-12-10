@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Virki-Alppi-Freestyle-Gradle.iml" filepath="$PROJECT_DIR$/Virki-Alppi-Freestyle-Gradle.iml" />
       <module fileurl="file://$PROJECT_DIR$/VirkiaAlppiFreestyle.iml" filepath="$PROJECT_DIR$/VirkiaAlppiFreestyle.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
