@@ -66,7 +66,8 @@
 					android:layout_weight="50"
 					android:adjustViewBounds="true"
 					android:scaleType="fitCenter"
-					android:id="@+id/virkiaNappi"/>
+					android:id="@+id/virkiaNappi"
+                    android:background="@android:color/transparent"/>
 
 				<ImageButton
 					android:layout_height="175dp"
@@ -74,7 +75,8 @@
 					android:src="@drawable/simpsiologo"
 					android:layout_weight="50"
 					android:scaleType="fitCenter"
-					android:id="@+id/simpsioNappi"/>
+					android:id="@+id/simpsioNappi"
+                    android:background="@android:color/transparent" />
 
 			</LinearLayout>
 
