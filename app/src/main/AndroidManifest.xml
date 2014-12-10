@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bettehem.virkiaalppifreestyle"
+    android:versionCode="1"
+    android:versionName="@string/appversion" >
+
+    <uses-sdk 
+        android:minSdkVersion="8" 
+        android:targetSdkVersion="21" />
+
+    <application
+        android:icon="@drawable/alppilogo"
+        android:label="@string/app_name"
+		android:allowBackup="false">
+        <activity
+            android:label="@string/app_name"
+            android:name=".MainActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity
+            android:label="@string/app_name"
+            android:name=".Etusivu">
+            <intent-filter >
+                <action android:name="com.bettehem.virkiaalppifreestyle.ETUSIVU"/>
+				<category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		<activity
+            android:label="@string/app_name"
+            android:name=".Ryhma">
+            <intent-filter >
+                <action android:name="com.bettehem.virkiaalppifreestyle.RYHMA"/>
+				<category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		<activity
+            android:label="@string/app_name"
+            android:name=".Tapahtuma">
+            <intent-filter >
+                <action android:name="com.bettehem.virkiaalppifreestyle.TAPAHTUMA"/>
+				<category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		<activity
+            android:label="@string/app_name"
+            android:name=".Linkit">
+            <intent-filter >
+                <action android:name="com.bettehem.virkiaalppifreestyle.LINKIT"/>
+				<category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		<activity
+            android:label="@string/app_name"
+            android:name=".Freestyle">
+            <intent-filter >
+                <action android:name="com.bettehem.virkiaalppifreestyle.FREESTYLE"/>
+				<category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		<activity
+            android:label="@string/app_name"
+            android:name=".Yhteistyo">
+            <intent-filter >
+                <action android:name="com.bettehem.virkiaalppifreestyle.YHTEISTYO"/>
+				<category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		<activity
+            android:label="@string/app_name"
+            android:name=".Yhteystiedot">
+            <intent-filter >
+                <action android:name="com.bettehem.virkiaalppifreestyle.YHTEYSTIEDOT"/>
+				<category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		<activity
+            android:label="@string/app_name"
+            android:name=".Tiedot">
+            <intent-filter >
+                <action android:name="com.bettehem.virkiaalppifreestyle.TIEDOT"/>
+				<category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		
+		<meta-data android:name="com.sec.android.support.multiwindow" android:value="true"/>
+        <meta-data android:name="com.sec.minimode.icon.portrait.normal" android:resource="@drawable/alppilogo" />
+        <meta-data android:name="com.sec.minimode.icon.landscape.normal" android:resource="@drawable/alppilogo" />
+    </application>
+
+</manifest>

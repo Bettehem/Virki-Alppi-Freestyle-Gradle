@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:id="@+id/tausta">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="@string/tapahtuma_nappi"
+		android:layout_width="match_parent"
+		android:gravity="center"
+		android:layout_gravity="center"
+		android:textSize="30sp"
+		android:textColor="#FFFFFF"/>
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="@string/tapahtuma_teksti"
+				android:layout_width="match_parent"
+				android:gravity="center"
+				android:layout_gravity="center"
+				android:textSize="20sp"
+				android:textColor="#FFFFFF"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="@string/tapahtuma_nappi_tulokset"
+				android:layout_width="match_parent"
+				android:id="@+id/tapahtumaNappiTulokset1"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="@string/tapahtuma_teksti2"
+				android:layout_width="match_parent"
+				android:gravity="center"
+				android:layout_gravity="center"
+				android:textSize="20sp"
+				android:textColor="#FFFFFF"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="@string/tapahtuma_nappi_tulokset"
+				android:layout_width="match_parent"
+				android:id="@+id/tapahtumaNappiTulokset2"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Large Text"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_width="match_parent"
+				android:visibility="invisible"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="@string/tapahtuma_tulos_nappi1"
+				android:layout_width="match_parent"
+				android:id="@+id/tapahtumaNappiTulos1"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="@string/tapahtuma_tulos_nappi2"
+				android:layout_width="match_parent"
+				android:id="@+id/tapahtumaNappiTulos2"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="@string/tapahtuma_tulos_nappi3"
+				android:layout_width="match_parent"
+				android:id="@+id/tapahtumaNappiTulos3"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="@string/tapahtuma_tulos_nappi4"
+				android:layout_width="match_parent"
+				android:id="@+id/tapahtumaNappiTulos4"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="@string/tapahtuma_tulos_nappi5"
+				android:layout_width="match_parent"
+				android:id="@+id/tapahtumaNappiTulos5"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="@string/tapahtuma_tulos_nappi6"
+				android:layout_width="match_parent"
+				android:id="@+id/tapahtumaNappiTulos6"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="@string/tapahtuma_tulos_nappi7"
+				android:layout_width="match_parent"
+				android:id="@+id/tapahtumaNappiTulos7"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="@string/tapahtuma_tulos_nappi8"
+				android:layout_width="match_parent"
+				android:id="@+id/tapahtumaNappiTulos8"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

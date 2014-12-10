@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:id="@+id/tausta">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="@string/linkit_nappi"
+		android:layout_width="match_parent"
+		android:gravity="center"
+		android:textSize="30sp"
+		android:layout_gravity="center"
+		android:textColor="#FFFFFF"/>
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical">
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="@string/linkit_virkia"
+				android:layout_width="wrap_content"
+				android:layout_gravity="center"
+				android:id="@+id/linkitNappiVirkia"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="@string/linkit_simpsio"
+				android:layout_width="wrap_content"
+				android:layout_gravity="center"
+				android:id="@+id/linkitNappiSimpsio"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="@string/linkit_joupiska"
+				android:layout_width="wrap_content"
+				android:layout_gravity="center"
+				android:id="@+id/linkitNappiJoupiska"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="@string/linkit_sjh"
+				android:layout_width="wrap_content"
+				android:layout_gravity="center"
+				android:id="@+id/linkitNappiSJH"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="@string/linkit_skisport"
+				android:layout_width="wrap_content"
+				android:layout_gravity="center"
+				android:id="@+id/linkitNappiSkisport"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="@string/linkit_lifestyleskiing"
+				android:layout_width="wrap_content"
+				android:layout_gravity="center"
+				android:id="@+id/linkitNappiLsSCrew"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="@string/linkit_simpsiopark"
+				android:layout_width="wrap_content"
+				android:layout_gravity="center"
+				android:id="@+id/linkitNappiSimpsioPark"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/yhteystiedot"
+        android:title="@string/yhteystiedot_teksti"/>
+	
+	<item
+		android:id="@+id/tietoja"
+		android:title="@string/tietoja_teksti"/>
+    
+</menu>
