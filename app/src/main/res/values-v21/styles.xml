@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- your theme inherits from the material theme -->
+	<style name="AppBaseTheme" parent="android:Theme.Material">
+		<!-- theme customizations -->
+		<item name="android:colorPrimary">#2196F3</item>
+		<item name="android:colorPrimaryDark">#1976D2</item>
+		<item name="android:navigationBarColor">#2196F3</item>
+	</style>
+
+    <style name="Nappi" parent="android:Widget.Material.Button">
+
+        <item name="android:background">#03A9F4</item>
+    </style>
+
+</resources>
