@@ -28,40 +28,35 @@
                 android:text="@string/etusivu_nappi"
                 android:layout_width="match_parent"
                 android:id="@+id/etusivuNappi"
-                style="@style/Nappi"
-                android:layout_margin="10dp"/>
+                style="@style/Nappi"/>
 
             <Button
                 android:layout_height="wrap_content"
                 android:text="@string/ryhma_nappi"
                 android:layout_width="match_parent"
                 android:id="@+id/ryhmaNappi"
-                style="@style/Nappi"
-                android:layout_margin="10dp"/>
+                style="@style/Nappi"/>
 
             <Button
                 android:layout_height="wrap_content"
                 android:text="@string/tapahtuma_nappi"
                 android:layout_width="match_parent"
                 android:id="@+id/tapahtumaNappi"
-                style="@style/Nappi"
-                android:layout_margin="10dp"/>
+                style="@style/Nappi"/>
 
             <Button
                 android:layout_height="wrap_content"
                 android:text="@string/linkit_nappi"
                 android:layout_width="match_parent"
                 android:id="@+id/linkitNappi"
-                style="@style/Nappi"
-                android:layout_margin="10dp"/>
+                style="@style/Nappi"/>
 
             <Button
                 android:layout_height="wrap_content"
                 android:text="@string/freestyle_nappi"
                 android:layout_width="match_parent"
                 android:id="@+id/freestyleNappi"
-                style="@style/Nappi"
-                android:layout_margin="10dp"/>
+                style="@style/Nappi"/>
 
             <LinearLayout
                 android:layout_height="wrap_content"
@@ -95,8 +90,7 @@
                 android:text="@string/yhteistyo_nappi"
                 android:layout_width="match_parent"
                 android:id="@+id/yhteistyoNappi"
-                style="@style/Nappi"
-                android:layout_margin="10dp"/>
+                style="@style/Nappi"/>
 
         </LinearLayout>
 

@@ -11,6 +11,7 @@
     <style name="Nappi" parent="android:Widget.Material.Button">
 
         <item name="android:background">#03A9F4</item>
+        <item name="android:layout_margin">10dp</item>
     </style>
 
 </resources>

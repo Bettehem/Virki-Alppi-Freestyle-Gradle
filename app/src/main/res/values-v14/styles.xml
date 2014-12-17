@@ -25,6 +25,12 @@
         <!--parent="@style/Widget.AppCompat.ActionBar">-->
         <item name="android:background">#2196F3</item>
     </style>
+
+    <style name="Nappi" parent="android:Widget.Button">
+
+        <item name="android:background">#03A9F4</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
     
     
 </resources>
