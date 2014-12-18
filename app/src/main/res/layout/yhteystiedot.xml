@@ -18,7 +18,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="New Text"
-                    android:id="@+id/textView"
+                    android:id="@+id/textView1"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/textView2"
                     android:layout_gravity="center_horizontal" />
 
                 <LinearLayout
@@ -31,7 +38,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="New Button"
-                        android:id="@+id/button"
+                        android:id="@+id/button1"
                         android:layout_weight="20"
                         style="@style/Nappi"/>
 
@@ -51,6 +58,51 @@
                         android:layout_weight="20"
                         style="@style/Nappi"/>
                 </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/textView3"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/textView4"
+                    android:layout_gravity="center_horizontal" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="60">
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="New Button4"
+                                android:id="@+id/button"
+                                android:layout_weight="20"
+                                style="@style/Nappi"/>
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="New Button"
+                                android:id="@+id/button5"
+                                android:layout_weight="20"
+                                style="@style/Nappi"/>
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="New Button"
+                                android:id="@+id/button6"
+                                android:layout_weight="20"
+                                style="@style/Nappi"/>
+                    </LinearLayout>
             </LinearLayout>
         </ScrollView>
 </LinearLayout>

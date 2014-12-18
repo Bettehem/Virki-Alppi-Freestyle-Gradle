@@ -37,5 +37,33 @@
 	<string name="tulossapian">Tulossa Pian!</string>
 	<string name="yhteystiedot_teksti">Yhteystiedot</string>
 	<string name="tietoja_teksti">Tietoja</string>
+    <string name="puhelu_nappi">Soita</string>
+    <string name="viesti_nappi">Viesti</string>
+    <string name="sposti_nappi">Sähköposti</string>
+    <string name="yht_ryhmat">Ryhmät:</string>
+    <string name="yht_mainostus">Mainostus:</string>
+    <string name="yht_kilpailut">Kilpailut:</string>
+    <string name="yht_tiedotus">Tiedotus ja jaostot:</string>
+    <string name="yht_ryhmavastaavat">Ryhmävastaavat:</string>
+
+    <string name="kalevi_nimi">Kalevi Ahokas</string>
+    <string name="kalevi_puh">0500663634</string>
+    <string name="kalevi_viesti">0500663634</string>
+    <string name="kalevi_sposti">kalevi.ahokas@netikka.fi</string>
+
+    <string name="ari_nimi">Ari Mustola</string>
+    <string name="ari_puh">0400861318</string>
+    <string name="ari_viesti">0400861318</string>
+    <string name="ari_sposti">ari.mbr@nic.fi</string>
+
+    <string name="tuomo_nimi">Tuomo Mäkinen</string>
+    <string name="tuomo_puh">0405581501</string>
+    <string name="tuomo_viesti">0405581501</string>
+    <string name="tuomo_sposti">tuomo.makinen@hotmail.fi</string>
+
+    <string name="timo_nimi">Timo Parviainen</string>
+    <string name="timo_puh">0405439188</string>
+    <string name="timo_viesti">0405439188</string>
+    <string name="timo_sposti">timo.parviainen@netikka.fi</string>
 
 </resources>
