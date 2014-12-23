@@ -3,20 +3,33 @@
 
     <string name="appversion">1.0.0</string>
     <string name="app_name">Virkiä Alppi &amp; Freestyle</string>
-	<string name="etusivu_nappi">Etusivu</string>
+
+
+
 	<string name="etusivu_teksti">Kauden 2014-2015 ryhmien muodostaminen käynnissä\nUutena ryhmänä Lautailuryhmä!\nTiedustelut Kalevilta!</string>
-	<string name="ryhma_nappi">Ryhmät</string>
+
+    <string name="etusivu_nappi">Etusivu</string>
+
+    <string name="ryhma_nappi">Ryhmät</string>
 	<string name="tapahtuma_nappi">Tapahtumat</string>
 	<string name="linkit_nappi">Linkit</string>
 	<string name="treeniaikataulu_nappi">Treeniaikataulu</string>
 	<string name="freestyle_nappi">Freestyle</string>
 	<string name="yhteistyo_nappi">Yhteistyökumppanit</string>
-	<string name="ryhma_teksti">Freestyle / Alppi ryhmä ykkönen (Jarkko)\nFreestyle / Alppi ryhmä kakkonen (Joona/Santeri)\nFreestyle ryhmä jatkava ryhmä (Ari/Kalevi)\nFreestyle Expert -ryhmä (Chris/Valtteri)\nAlppihiihto, Expert -ryhmä (Tuomo\nLumilautaryhmä (Kalevi)</string>
-	<string name="ryhma_lisatieto_nappi">Lisätietoja tästä</string>
+
+
+
+    <string name="ryhma_teksti">Freestyle / Alppi ryhmä ykkönen (Jarkko)\nFreestyle / Alppi ryhmä kakkonen (Joona/Santeri)\nFreestyle ryhmä jatkava ryhmä (Ari/Kalevi)\nFreestyle Expert -ryhmä (Chris/Valtteri)\nAlppihiihto, Expert -ryhmä (Tuomo\nLumilautaryhmä (Kalevi)</string>
 	<string name="ryhma_teksti2">RATARYHMÄ/KILPARYHMÄ\n\nTuomo Mäkinen\n  -Edistynyt Taso\n  -Ratalaskeminen\n  -Kilpailut\n  -Tiedon ja Taidon jakaminen muille nuorille</string>
-	<string name="tapahtuma_teksti">Menneitä Tapahtumia:\n\n\nPM Kisat maaliskuussa 2014\n\nPM Pujottelu\nSimpsiöllä 23.3.2014.</string>
+
+    <string name="ryhma_lisatieto_nappi">Lisätietoja tästä</string>
+
+
+
+    <string name="tapahtuma_teksti">Menneitä Tapahtumia:\n\n\nPM Kisat maaliskuussa 2014\n\nPM Pujottelu\nSimpsiöllä 23.3.2014.</string>
 	<string name="tapahtuma_nappi_tulokset">Tulokset</string>
 	<string name="tapahtuma_teksti2">\nPM Suurpujottelu\nSimpsiöllä 23.3.2014.</string>
+
 	<string name="tapahtuma_tulos_nappi1">PM Suurpujottelu 16.3.13</string>
 	<string name="tapahtuma_tulos_nappi2">Simpsiö 25v Juhlakilpailu</string>
 	<string name="tapahtuma_tulos_nappi3">PM Syöksy 17.2.10</string>
@@ -25,6 +38,9 @@
 	<string name="tapahtuma_tulos_nappi6">PM Suurpujottelu 11.2.12</string>
 	<string name="tapahtuma_tulos_nappi7">PM Super-G 24.3.10</string>
 	<string name="tapahtuma_tulos_nappi8">PM Super-G 8.3.11</string>
+
+
+
 	<string name="linkit_virkia">Lapuan Virkiä</string>
 	<string name="linkit_simpsio">Simpsiön Rinnehiihtokeskus</string>
 	<string name="linkit_joupiska">Joupiska</string>
@@ -32,14 +48,21 @@
 	<string name="linkit_skisport">Skisport Finland</string>
 	<string name="linkit_lifestyleskiing">Lifestyleskiing Crew</string>
 	<string name="linkit_simpsiopark">Simpsiö Park - Facebook sivu</string>
+
+
+
 	<string name="freestyle_teksti">Vaikka et ollutkaan läsnä info/ilmottautumistilaisuudessa, voit silti tulla seuran toimintaan mukaan. Voit täyttää ilmottautumislomakkeen etukäteen ja tuoda sen sitten treeneihin. Klikkaa alla olevasta napista saadaksesi ilmottautumislomakkeen. Ilmottautumislomakkeita on myös saatavilla Simpsiön vuokraamosta.</string>
 	<string name="freestyle_nappi1">Ilmottautumislomake tästä</string>
 	<string name="tulossapian">Tulossa Pian!</string>
+
+
+
 	<string name="yhteystiedot_teksti">Yhteystiedot</string>
 	<string name="tietoja_teksti">Tietoja</string>
     <string name="puhelu_nappi">Soita</string>
     <string name="viesti_nappi">Viesti</string>
     <string name="sposti_nappi">Sähköposti</string>
+
     <string name="yht_ryhmat">Ryhmät:</string>
     <string name="yht_mainostus">Mainostus:</string>
     <string name="yht_kilpailut">Kilpailut:</string>
