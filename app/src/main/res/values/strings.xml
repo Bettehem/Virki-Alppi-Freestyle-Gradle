@@ -66,4 +66,21 @@
     <string name="timo_viesti">0405439188</string>
     <string name="timo_sposti">timo.parviainen@netikka.fi</string>
 
+    <string name="jarkko_nimi">Jarkko Kettula</string>
+    <string name="jarkko_puh">0405821617</string>
+    <string name="jarkko_viesti">0405821617</string>
+    <string name="jarkko_sposti">jarkko.kettula@primapower.com</string>
+
+    <string name="chris_nimi">Chris Mustola</string>
+    <string name="chris_puh">0400289961</string>
+    <string name="chris_viesti">0400289961</string>
+    <string name="chris_sposti">chris.mustola@gmail.com</string>
+
+    <string name="valtteri_nimi">Valtteri Kivistö</string>
+    <string name="vlatteri_puh">0505703244</string>
+    <string name="valtteri_viesti">0505703244</string>
+    <string name="valtteri_sposti">valtsu962009@hotmail.com</string>
+
+    <string name="yht_ryhmavastaavat_lisateksti">Lisäksi Ryhmävastaavina toimivat Kalevi, Tuomo ja Ari</string>
+
 </resources>
