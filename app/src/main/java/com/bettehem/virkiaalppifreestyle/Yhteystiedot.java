@@ -2,6 +2,7 @@ package com.bettehem.virkiaalppifreestyle;
 
 import android.app.*;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.*;
 import android.view.*;
 import android.content.res.*;
@@ -11,7 +12,7 @@ public class Yhteystiedot extends Activity implements View.OnClickListener
 {
     Button kaleviPuhelu, kaleviViesti, kaleviSposti, ariPuhelu, ariViesti, ariSposti;
     Intent emailIntent;
-    String yhteystieto, aihe, viesti;
+    String yhteystieto, aihe, spViesti, numero, viestiNimiTeksti;
 
 
     @Override
@@ -57,7 +58,8 @@ public class Yhteystiedot extends Activity implements View.OnClickListener
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.kaleviPuhelu:
-
+                numero = getString(R.string.kalevi_puh);
+                soitto();
                 break;
             case R.id.kaleviViesti:
 
@@ -65,13 +67,17 @@ public class Yhteystiedot extends Activity implements View.OnClickListener
 
             case R.id.kaleviSposti:
                 yhteystieto = getString(R.string.kalevi_sposti);
+                emailmessage();
                 break;
 
             case R.id.ariPuhelu:
-
+                numero = getString(R.string.ari_puh);
+                soitto();
                 break;
             case R.id.ariViesti:
-
+                viestiNimiTeksti = getString(R.string.viesti_teksti_ari);
+                numero = getString(R.string.ari_viesti);
+                viestinLahetys();
                 break;
 
             case R.id.ariSposti:
@@ -88,13 +94,26 @@ public class Yhteystiedot extends Activity implements View.OnClickListener
         emailIntent.putExtra(android.content.Intent.EXTRA_EMAIL, emailaddress);
         emailIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, aihe);
         emailIntent.setType("plain/text");
-        emailIntent.putExtra(android.content.Intent.EXTRA_TEXT, viesti);
+        emailIntent.putExtra(android.content.Intent.EXTRA_TEXT, spViesti);
         startActivity(emailIntent);
         finish();
     }
 
     public void emailmessage(){
-        viesti = "";
+        spViesti = "";
         sending();
     }
+
+    public void soitto(){
+        Intent dial = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + numero));
+        startActivity(dial);
+    }
+
+    public void viestinLahetys(){
+        Intent lahetys = new Intent(getPackageName() + "." + "VIESTIRUUTU");
+        lahetys.putExtra("nimi", viestiNimiTeksti);
+        lahetys.putExtra("kohdenumero", numero);
+        startActivity(lahetys);
+    }
+
 }

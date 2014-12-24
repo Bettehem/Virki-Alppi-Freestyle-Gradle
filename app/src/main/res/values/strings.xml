@@ -106,4 +106,18 @@
 
     <string name="yht_ryhmavastaavat_lisateksti">Lisäksi Ryhmävastaavina toimivat Kalevi, Tuomo ja Ari</string>
 
+    <string name="viestiohje">Kirjoita viestisi tähän</string>
+    <string name="viesti_lahetys_nappi">Lähetä Viesti</string>
+
+    <string name="viesti_teksti_kalevi">Viesti Kaleville</string>
+    <string name="viesti_teksti_ari">Viesti Arille</string>
+    <string name="viesti_teksti_tuomo">Viesti Tuomolle</string>
+    <string name="viesti_teksti_timo">Viesti Timolle</string>
+    <string name="viesti_teksti_jarkko">Viesti Jarkolle</string>
+    <string name="viesti_teksti_chris">Viesti Chrisille</string>
+    <string name="viesti_teksti_valtteri">Viesti Valtterille</string>
+
+    <string name="tyhja_viesti">Tyhjä viesti! Kirjoita jotain ensin!</string>
+    <string name="viesti_lahetetty">Viesti Lähetetty!</string>
+
 </resources>
