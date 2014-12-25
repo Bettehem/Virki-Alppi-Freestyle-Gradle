@@ -29,7 +29,7 @@
             android:label="@string/app_name"
             android:name="com.bettehem.virkia_alppi_freestyle.Etusivu">
             <intent-filter >
-                <action android:name="com.bettehem.virkiaalppifreestyle.ETUSIVU"/>
+                <action android:name="com.bettehem.virkia_alppi_freestyle.ETUSIVU"/>
 				<category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -38,7 +38,7 @@
             android:label="@string/app_name"
             android:name="com.bettehem.virkia_alppi_freestyle.Ryhma">
             <intent-filter >
-                <action android:name="com.bettehem.virkiaalppifreestyle.RYHMA"/>
+                <action android:name="com.bettehem.virkia_alppi_freestyle.RYHMA"/>
 				<category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -47,7 +47,7 @@
             android:label="@string/app_name"
             android:name="com.bettehem.virkia_alppi_freestyle.Tapahtuma">
             <intent-filter >
-                <action android:name="com.bettehem.virkiaalppifreestyle.TAPAHTUMA"/>
+                <action android:name="com.bettehem.virkia_alppi_freestyle.TAPAHTUMA"/>
 				<category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -56,7 +56,7 @@
             android:label="@string/app_name"
             android:name="com.bettehem.virkia_alppi_freestyle.Linkit">
             <intent-filter >
-                <action android:name="com.bettehem.virkiaalppifreestyle.LINKIT"/>
+                <action android:name="com.bettehem.virkia_alppi_freestyle.LINKIT"/>
 				<category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -65,7 +65,7 @@
             android:label="@string/app_name"
             android:name="com.bettehem.virkia_alppi_freestyle.Freestyle">
             <intent-filter >
-                <action android:name="com.bettehem.virkiaalppifreestyle.FREESTYLE"/>
+                <action android:name="com.bettehem.virkia_alppi_freestyle.FREESTYLE"/>
 				<category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -74,7 +74,7 @@
             android:label="@string/app_name"
             android:name="com.bettehem.virkia_alppi_freestyle.Yhteistyo">
             <intent-filter >
-                <action android:name="com.bettehem.virkiaalppifreestyle.YHTEISTYO"/>
+                <action android:name="com.bettehem.virkia_alppi_freestyle.YHTEISTYO"/>
 				<category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -83,7 +83,7 @@
             android:label="@string/app_name"
             android:name="com.bettehem.virkia_alppi_freestyle.Yhteystiedot">
             <intent-filter >
-                <action android:name="com.bettehem.virkiaalppifreestyle.YHTEYSTIEDOT"/>
+                <action android:name="com.bettehem.virkia_alppi_freestyle.YHTEYSTIEDOT"/>
 				<category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -92,7 +92,7 @@
             android:label="@string/app_name"
             android:name="com.bettehem.virkia_alppi_freestyle.Tiedot">
             <intent-filter >
-                <action android:name="com.bettehem.virkiaalppifreestyle.TIEDOT"/>
+                <action android:name="com.bettehem.virkia_alppi_freestyle.TIEDOT"/>
 				<category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -101,7 +101,7 @@
             android:label="@string/app_name"
             android:name="com.bettehem.virkia_alppi_freestyle.ViestiRuutu">
             <intent-filter >
-                <action android:name="com.bettehem.virkiaalppifreestyle.VIESTIRUUTU"/>
+                <action android:name="com.bettehem.virkia_alppi_freestyle.VIESTIRUUTU"/>
                 <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
