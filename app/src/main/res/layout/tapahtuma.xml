@@ -67,7 +67,8 @@
 				android:layout_height="wrap_content"
 				android:text="@string/tapahtuma_tulos_nappi1"
 				android:layout_width="match_parent"
-				android:id="@+id/tapahtumaNappiTulos1"/>
+				android:id="@+id/tapahtumaNappiTulos1"
+				style="@style/Nappi"/>
 
 			<Button
 				android:layout_height="wrap_content"

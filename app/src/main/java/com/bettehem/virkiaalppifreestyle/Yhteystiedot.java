@@ -55,7 +55,9 @@ public class Yhteystiedot extends Activity implements View.OnClickListener
                 soitto();
                 break;
             case R.id.kaleviViesti:
-
+				viestiNimiTeksti = getString(R.string.viesti_teksti_kalevi);
+                numero = getString(R.string.kalevi_viesti);
+                viestinLahetys();
                 break;
 
             case R.id.kaleviSposti:

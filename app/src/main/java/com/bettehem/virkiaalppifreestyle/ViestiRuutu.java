@@ -27,13 +27,15 @@ public class ViestiRuutu extends Activity implements View.OnClickListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.viestiruutu);
 
-        View view = findViewById(R.id.tausta);
-        int orientation = getResources().getConfiguration().orientation;
-        if (orientation == Configuration.ORIENTATION_LANDSCAPE){
-            view.setBackgroundResource(R.drawable.tausta_vaaka);
-        }else{
-            view.setBackgroundResource(R.drawable.tausta_pysty);
-        }
+        //View view = findViewById(R.id.tausta);
+		int orientation = getResources().getConfiguration().orientation;
+		if (orientation == Configuration.ORIENTATION_LANDSCAPE){
+			//view.setBackgroundResource(R.drawable.tausta_vaaka);
+			getWindow().setBackgroundDrawableResource(R.drawable.tausta_vaaka);
+		}else{
+			//view.setBackgroundResource(R.drawable.tausta_pysty);
+			getWindow().setBackgroundDrawableResource(R.drawable.tausta_pysty);
+		}
 
         muuttujat();
 
@@ -67,6 +69,7 @@ public class ViestiRuutu extends Activity implements View.OnClickListener{
                 }else{
                     viesti();
                     viestiLahetetty();
+					finish();
                 }
                 break;
         }

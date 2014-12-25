@@ -47,7 +47,7 @@ public class Tiedot extends Activity implements View.OnClickListener
                 break;
             case R.id.chrisViesti:
                 viestiNimiTeksti = getString(R.string.viesti_teksti_chris);
-                numero = getString(R.string.ari_viesti);
+                numero = getString(R.string.chris_viesti);
                 viestinLahetys();
                 break;
 

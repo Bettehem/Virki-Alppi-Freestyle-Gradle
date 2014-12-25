@@ -16,7 +16,9 @@
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/tietoja_sovelluksesta"/>
+                android:text="@string/tietoja_sovelluksesta"
+				android:textSize="24sp"
+				android:textColor="#ffffff"/>
 
             <LinearLayout
                 android:orientation="horizontal"

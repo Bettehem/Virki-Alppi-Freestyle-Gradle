@@ -37,7 +37,8 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/ajankohtaistaNappi"
-                android:text="@string/ilmottautumislomake_nappi"/>
+                android:text="@string/ilmottautumislomake_nappi"
+				style="@style/Nappi"/>
 
 		</LinearLayout>
 
