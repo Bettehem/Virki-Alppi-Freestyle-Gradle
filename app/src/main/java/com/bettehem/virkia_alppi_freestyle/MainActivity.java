@@ -1,4 +1,4 @@
-package com.bettehem.virkiaalppifreestyle;
+package com.bettehem.virkia_alppi_freestyle;
 
 import android.app.*;
 import android.os.*;
@@ -33,32 +33,8 @@ public class MainActivity extends Activity implements View.OnClickListener
     }
 	
 	public void muuttujat(){
-		etusivu = (Button) findViewById(R.id.etusivuNappi);
-		ryhma = (Button) findViewById(R.id.ryhmaNappi);
-		tapahtuma = (Button) findViewById(R.id.tapahtumaNappi);
-		linkit = (Button) findViewById(R.id.linkitNappi);
-		freestyle = (Button) findViewById(R.id.freestyleNappi);
-		virkia = (ImageButton) findViewById(R.id.virkiaNappi);
-		simpsio = (ImageButton) findViewById(R.id.simpsioNappi);
-		yhteistyo = (Button) findViewById(R.id.yhteistyoNappi);
-		
-		etusivu.setOnClickListener(this);
-		ryhma.setOnClickListener(this);
-		tapahtuma.setOnClickListener(this);
-		linkit.setOnClickListener(this);
-		freestyle.setOnClickListener(this);
-		virkia.setOnClickListener(this);
-		simpsio.setOnClickListener(this);
-		yhteistyo.setOnClickListener(this);
-		
-		avaaEtusivu = new Intent(getPackageName() + "." + "ETUSIVU");
-		avaaRyhma = new Intent(getPackageName() + "." + "RYHMA");
-		avaaTapahtuma = new Intent(getPackageName() + "." + "TAPAHTUMA");
-		avaaLinkit = new Intent(getPackageName() + "." + "LINKIT");
-		avaaFreestyle = new Intent(getPackageName() + "." + "FREESTYLE");
-		avaaYhteistyo = new Intent(getPackageName() + "." + "YHTEISTYO");
-		avaaYhteystiedot = new Intent(getPackageName() + "." + "YHTEYSTIEDOT");
-		avaaTiedot = new Intent(getPackageName() + "." + "TIEDOT");
+        napit();
+        intentit();
 	}
 	
 	@Override
@@ -118,4 +94,35 @@ public class MainActivity extends Activity implements View.OnClickListener
 
 		return false;
 	}
+
+    public void napit(){
+        etusivu = (Button) findViewById(R.id.etusivuNappi);
+        ryhma = (Button) findViewById(R.id.ryhmaNappi);
+        tapahtuma = (Button) findViewById(R.id.tapahtumaNappi);
+        linkit = (Button) findViewById(R.id.linkitNappi);
+        freestyle = (Button) findViewById(R.id.freestyleNappi);
+        virkia = (ImageButton) findViewById(R.id.virkiaNappi);
+        simpsio = (ImageButton) findViewById(R.id.simpsioNappi);
+        yhteistyo = (Button) findViewById(R.id.yhteistyoNappi);
+
+        etusivu.setOnClickListener(this);
+        ryhma.setOnClickListener(this);
+        tapahtuma.setOnClickListener(this);
+        linkit.setOnClickListener(this);
+        freestyle.setOnClickListener(this);
+        virkia.setOnClickListener(this);
+        simpsio.setOnClickListener(this);
+        yhteistyo.setOnClickListener(this);
+    }
+
+    public void intentit(){
+        avaaEtusivu = new Intent(getPackageName() + "." + "ETUSIVU");
+        avaaRyhma = new Intent(getPackageName() + "." + "RYHMA");
+        avaaTapahtuma = new Intent(getPackageName() + "." + "TAPAHTUMA");
+        avaaLinkit = new Intent(getPackageName() + "." + "LINKIT");
+        avaaFreestyle = new Intent(getPackageName() + "." + "FREESTYLE");
+        avaaYhteistyo = new Intent(getPackageName() + "." + "YHTEISTYO");
+        avaaYhteystiedot = new Intent(getPackageName() + "." + "YHTEYSTIEDOT");
+        avaaTiedot = new Intent(getPackageName() + "." + "TIEDOT");
+    }
 }

@@ -1,5 +1,4 @@
-package com.bettehem.virkiaalppifreestyle;
-import android.*;
+package com.bettehem.virkia_alppi_freestyle;
 import android.app.*;
 import android.content.Intent;
 import android.content.res.*;

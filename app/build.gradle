@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.1"
 
     defaultConfig {
-        applicationId "com.bettehem.virkiaalppifreestyle"
+        applicationId "com.bettehem.virkia_alppi_freestyle"
         minSdkVersion 8
         targetSdkVersion 21
     }

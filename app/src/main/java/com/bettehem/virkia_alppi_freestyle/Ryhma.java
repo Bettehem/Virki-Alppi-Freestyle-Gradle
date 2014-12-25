@@ -1,11 +1,8 @@
-package com.bettehem.virkiaalppifreestyle;
+package com.bettehem.virkia_alppi_freestyle;
 import android.app.*;
 import android.os.*;
 import android.view.*;
 import android.content.res.*;
-import android.widget.*;
-import android.content.*;
-import android.net.*;
 
 public class Ryhma extends Activity //implements View.OnClickListener
 {
