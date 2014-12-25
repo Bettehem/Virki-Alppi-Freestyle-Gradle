@@ -83,78 +83,78 @@ public class Yhteystiedot extends Activity implements View.OnClickListener
 
 
             case R.id.tuomoPuhelu:
-                numero = getString(R.string.ari_puh);
+                numero = getString(R.string.tuomo_puh);
                 soitto();
                 break;
             case R.id.tuomoViesti:
-                viestiNimiTeksti = getString(R.string.viesti_teksti_ari);
-                numero = getString(R.string.ari_viesti);
+                viestiNimiTeksti = getString(R.string.viesti_teksti_tuomo);
+                numero = getString(R.string.tuomo_viesti);
                 viestinLahetys();
                 break;
 
             case R.id.tuomoSposti:
-                yhteystieto = getString(R.string.ari_sposti);
+                yhteystieto = getString(R.string.tuomo_sposti);
                 emailmessage();
                 break;
 
 
 
             case R.id.timoPuhelu:
-                numero = getString(R.string.ari_puh);
+                numero = getString(R.string.timo_puh);
                 soitto();
                 break;
             case R.id.timoViesti:
-                viestiNimiTeksti = getString(R.string.viesti_teksti_ari);
-                numero = getString(R.string.ari_viesti);
+                viestiNimiTeksti = getString(R.string.viesti_teksti_timo);
+                numero = getString(R.string.timo_viesti);
                 viestinLahetys();
                 break;
 
             case R.id.timoSposti:
-                yhteystieto = getString(R.string.ari_sposti);
+                yhteystieto = getString(R.string.timo_sposti);
                 emailmessage();
                 break;
 
 
 
             case R.id.jarkkoPuhelu:
-                numero = getString(R.string.ari_puh);
+                numero = getString(R.string.jarkko_puh);
                 soitto();
                 break;
             case R.id.jarkkoViesti:
-                viestiNimiTeksti = getString(R.string.viesti_teksti_ari);
-                numero = getString(R.string.ari_viesti);
+                viestiNimiTeksti = getString(R.string.viesti_teksti_jarkko);
+                numero = getString(R.string.jarkko_viesti);
                 viestinLahetys();
                 break;
 
             case R.id.jarkkoSposti:
-                yhteystieto = getString(R.string.ari_sposti);
+                yhteystieto = getString(R.string.jarkko_sposti);
                 emailmessage();
                 break;
 
 
 
             case R.id.chrisPuhelu:
-                numero = getString(R.string.ari_puh);
+                numero = getString(R.string.chris_puh);
                 soitto();
                 break;
             case R.id.chrisViesti:
-                viestiNimiTeksti = getString(R.string.viesti_teksti_ari);
-                numero = getString(R.string.ari_viesti);
+                viestiNimiTeksti = getString(R.string.viesti_teksti_chris);
+                numero = getString(R.string.chris_viesti);
                 viestinLahetys();
                 break;
 
             case R.id.chrisSposti:
-                yhteystieto = getString(R.string.ari_sposti);
+                yhteystieto = getString(R.string.chris_sposti);
                 emailmessage();
                 break;
 
             case R.id.valtteriPuhelu:
-                numero = getString(R.string.ari_puh);
+                numero = getString(R.string.valtteri_puh);
                 soitto();
                 break;
             case R.id.valtteriViesti:
-                viestiNimiTeksti = getString(R.string.viesti_teksti_ari);
-                numero = getString(R.string.ari_viesti);
+                viestiNimiTeksti = getString(R.string.viesti_teksti_valtteri);
+                numero = getString(R.string.valtteri_viesti);
                 viestinLahetys();
                 break;
 

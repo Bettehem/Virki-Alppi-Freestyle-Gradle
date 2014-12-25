@@ -42,17 +42,17 @@ public class Tiedot extends Activity implements View.OnClickListener
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.chrisPuhelu:
-                numero = getString(R.string.ari_puh);
+                numero = getString(R.string.chris_puh);
                 soitto();
                 break;
             case R.id.chrisViesti:
-                viestiNimiTeksti = getString(R.string.viesti_teksti_ari);
+                viestiNimiTeksti = getString(R.string.viesti_teksti_chris);
                 numero = getString(R.string.ari_viesti);
                 viestinLahetys();
                 break;
 
             case R.id.chrisSposti:
-                yhteystieto = getString(R.string.ari_sposti);
+                yhteystieto = getString(R.string.chris_sposti_dev);
                 emailmessage();
                 break;
         }

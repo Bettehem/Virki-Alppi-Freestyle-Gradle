@@ -108,9 +108,10 @@
     <string name="chris_puh">0400289961</string>
     <string name="chris_viesti">0400289961</string>
     <string name="chris_sposti">chris.mustola@gmail.com</string>
-
+	<string name="chris_sposti_dev">bettehem@gmail.com</string>
+	
     <string name="valtteri_nimi">Valtteri Kivistö</string>
-    <string name="vlatteri_puh">0505703244</string>
+    <string name="valtteri_puh">0505703244</string>
     <string name="valtteri_viesti">0505703244</string>
     <string name="valtteri_sposti">valtsu962009@hotmail.com</string>
 
