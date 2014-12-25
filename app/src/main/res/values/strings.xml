@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="appversion">1.0.0</string>
+    <string name="appversion">2.0.0</string>
     <string name="app_name">Virkiä Alppi &amp; Freestyle</string>
 
 
 
-	<string name="etusivu_teksti">Kauden 2014-2015 ryhmien muodostaminen käynnissä\nUutena ryhmänä Lautailuryhmä!\nTiedustelut Kalevilta!</string>
+	<string name="etusivu_teksti">Hei viime kaudella mukana olleet, jotka eivät ole vielä ilmoittautuneet, ilmoittakaa Kaleville, että hankitteko kausikortin vai kertalipun harjoitusten ajaksi.\nPS. Jos sähköposti-info ei tullut perille, ota yhteyttä Kaleviin!\n\nKauden 2014-2015 ryhmien muodostaminen käynnissä. Tarvittaessa ilmottautumiskaavakkeen voit ladata alla olevasta napista painamalla.\n\nJos olit mukana viime kaudella, eivätkä yhteystietosi ole muuttuneet, sinun ei tarvitse täyttää ilmottautumiskaavaketta.\n\nUutena ryhmänä Lautailuryhmä!\n\nTiedustelut Kalevilta!</string>
 
-    <string name="etusivu_nappi">Etusivu</string>
+    <string name="etusivu_nappi">Ajankohtaista</string>
 
     <string name="ryhma_nappi">Ryhmät</string>
 	<string name="tapahtuma_nappi">Tapahtumat</string>
@@ -41,25 +41,35 @@
 
 
 
-	<string name="linkit_virkia">Lapuan Virkiä</string>
+    <string name="linkit_instagram">Instagram</string>
+    <string name="linkit_facebook">Facebook</string>
+    <string name="linkit_twitter">Twitter</string>
+    <string name="linkit_virkia">Lapuan Virkiä</string>
 	<string name="linkit_simpsio">Simpsiön Rinnehiihtokeskus</string>
 	<string name="linkit_joupiska">Joupiska</string>
 	<string name="linkit_sjh">Seinäjoen Hiihtoseura</string>
 	<string name="linkit_skisport">Skisport Finland</string>
-	<string name="linkit_lifestyleskiing">Lifestyleskiing Crew</string>
+	<string name="linkit_lifestyleskiing">LifestyleSkiing Crew</string>
 	<string name="linkit_simpsiopark">Simpsiö Park - Facebook sivu</string>
 
 
 
-	<string name="freestyle_teksti">Vaikka et ollutkaan läsnä info/ilmottautumistilaisuudessa, voit silti tulla seuran toimintaan mukaan. Voit täyttää ilmottautumislomakkeen etukäteen ja tuoda sen sitten treeneihin. Klikkaa alla olevasta napista saadaksesi ilmottautumislomakkeen. Ilmottautumislomakkeita on myös saatavilla Simpsiön vuokraamosta.</string>
-	<string name="freestyle_nappi1">Ilmottautumislomake tästä</string>
-	<string name="tulossapian">Tulossa Pian!</string>
+	<string name="freestyle_teksti">Jatkamme hyvin alkaneen freestyle toiminnan kehitystä. Valmentat ovat hakeneet lisäkoulutusta lajiin liittyen. Lisäksi olemme saaneet muutaman valmentajan lisää.\n\nKaikki lajista kiinnostuneet tervetuloa oppimaan ja pitämään hauskaa! Aluksi riittää lasketteluvälineet, kypärä ja taito osata mennä hissillä ylös ja laskea alas itsenäisesti.\n\nAloittelevana laskijana mahdollisuus tulla seuran toimintaan mukaan Hiihtokoulun kautta. Lisätietoja alla olevasta napista.</string>
+	<string name="freestyle_lisätieto_nappi">Lisätietoja tästä</string>
+    <string name="freestyle_teksti2">Seuran valmennusmaksu = 100 euroa/kausi.(Hintaan sisältyy Ski passi)\n\nSeuran jäsenenä voit myös hankkia kausikortin (toimii Simpsiöllä ja Joupiskalla) puoleen hintaan normaalista seuran kautta. Voit tarkistaa hinnat alapuolella olevasta napista painamalla.\n\nVaihtoehtoisesti mahdollisuus myös kertalippuun harjoitusten ajaksi, mikäli kausikorttia ei halua hankkia. (12 euroa/kerta)</string>
+    <string name="freestyle_ski_passi_nappi">Lisätietoa Ski Passista</string>
+    <string name="freestyle_lippuhinnat_nappi">Hissilippujen Hinnat</string>
+
+
+
+    <string name="tulossapian">Tulossa Pian!</string>
 
 
 
 	<string name="yhteystiedot_teksti">Yhteystiedot</string>
 	<string name="tietoja_teksti">Tietoja</string>
-    <string name="puhelu_nappi">Soita</string>
+
+    <string name="puhelu_nappi">Puhelu</string>
     <string name="viesti_nappi">Viesti</string>
     <string name="sposti_nappi">Sähköposti</string>
 
@@ -119,5 +129,11 @@
 
     <string name="tyhja_viesti">Tyhjä viesti! Kirjoita jotain ensin!</string>
     <string name="viesti_lahetetty">Viesti Lähetetty!</string>
+    <string name="ilmottautumislomake_nappi">Ilmottautumislomake tästä</string>
+
+
+
+    <string name="tietoja_sovelluksesta">Sovelluksen kehittäjä:\nChris Mustola\n\nTämä sovellus on tehty www.virkia-alppi.net -verkkosivujen pohjalta mobiililaitteille sopivaksi.\nSovellukseen on lisätty ominaisuuksia, joita ei olisi mahdollista toteuttaa selaimessa, ja sovellusta voi myös käyttää ilman minkäänlaista verkkoyhteyttä!\n\n\n\nHaluatko yrityksellesi vastaavan sovelluksen?\nOta yhteyttä kehittäjään:</string>
+
 
 </resources>

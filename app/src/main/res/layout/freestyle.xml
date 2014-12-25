@@ -35,11 +35,39 @@
 
 			<Button
 				android:layout_height="wrap_content"
-				android:text="@string/freestyle_nappi1"
+				android:text="@string/freestyle_lisätieto_nappi"
 				android:layout_width="match_parent"
 				android:gravity="center"
 				android:layout_gravity="center"
-				android:id="@+id/freestyleNappiLinkki1"/>
+				android:id="@+id/freestyleLisatietoNappi"
+                style="@style/Nappi"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="@string/freestyle_teksti2"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:text="@string/freestyle_ski_passi_nappi"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/freestyleSkiPassiNappi"
+                style="@style/Nappi"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:text="@string/freestyle_lippuhinnat_nappi"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/freestyleHissilippuNappi"
+                style="@style/Nappi"/>
 
 		</LinearLayout>
 

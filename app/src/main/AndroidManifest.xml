@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.bettehem.virkiaalppifreestyle"
-    android:versionCode="1"
+    android:versionCode="2"
     android:versionName="@string/appversion" >
 
     <uses-permission android:name="android.permission.CALL_PHONE"/>

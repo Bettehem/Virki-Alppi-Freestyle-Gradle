@@ -3,5 +3,54 @@
     android:layout_height="fill_parent"
     android:orientation="vertical"
 	android:id="@+id/tausta">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tietoja_sovelluksesta"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="60">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/puhelu_nappi"
+                    android:id="@+id/chrisPuhelu"
+                    android:layout_weight="20"
+                    style="@style/Nappi"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/viesti_nappi"
+                    android:id="@+id/chrisViesti"
+                    android:layout_weight="20"
+                    style="@style/Nappi"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sposti_nappi"
+                    android:id="@+id/chrisSposti"
+                    android:layout_weight="20"
+                    style="@style/Nappi"/>
+            </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
     
 </LinearLayout>

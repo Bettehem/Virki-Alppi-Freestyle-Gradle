@@ -9,7 +9,7 @@ import android.net.*;
 
 public class Linkit extends Activity implements View.OnClickListener
 {
-	Button virkia, simpsio, joupiska, sjh, skisport, lss, simpsiopark;
+	Button virkia, simpsio, joupiska, sjh, skisport, lsc, simpsiopark, insta, fb, twitter;
 	
 	
 	@Override
@@ -34,16 +34,22 @@ public class Linkit extends Activity implements View.OnClickListener
 		joupiska = (Button) findViewById(R.id.linkitNappiJoupiska);
 		sjh = (Button) findViewById(R.id.linkitNappiSJH);
 		skisport = (Button) findViewById(R.id.linkitNappiSkisport);
-		lss = (Button) findViewById(R.id.linkitNappiLsSCrew);
+		lsc = (Button) findViewById(R.id.linkitNappiLSCrew);
 		simpsiopark = (Button) findViewById(R.id.linkitNappiSimpsioPark);
+        insta = (Button) findViewById(R.id.linkitNappiInsta);
+        fb = (Button) findViewById(R.id.linkitNappiFB);
+        twitter = (Button) findViewById(R.id.linkitNappiTwitter);
 		
 		virkia.setOnClickListener(this);
 		simpsio.setOnClickListener(this);
 		joupiska.setOnClickListener(this);
 		sjh.setOnClickListener(this);
 		skisport.setOnClickListener(this);
-		lss.setOnClickListener(this);
+		lsc.setOnClickListener(this);
 		simpsiopark.setOnClickListener(this);
+        insta.setOnClickListener(this);
+        fb.setOnClickListener(this);
+        twitter.setOnClickListener(this);
 	}
 	
 	
@@ -51,6 +57,15 @@ public class Linkit extends Activity implements View.OnClickListener
 	public void onClick(View p1)
 	{
 		switch (p1.getId()){
+            case R.id.linkitNappiInsta:
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://instagram.com/virkiafreestyle")));
+                break;
+            case R.id.linkitNappiFB:
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/profile.php?id=100008479963397")));
+                break;
+            case R.id.linkitNappiTwitter:
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://twitter.com/virkiafreestyle")));
+                break;
 			case R.id.linkitNappiVirkia:
 				startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.lapuanvirkia.fi")));
 				break;
@@ -66,7 +81,7 @@ public class Linkit extends Activity implements View.OnClickListener
 			case R.id.linkitNappiSkisport:
 				startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.skisport.fi")));
 				break;
-			case R.id.linkitNappiLsSCrew:
+			case R.id.linkitNappiLSCrew:
 				startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/channel/UC8A0XqOOBVCKEnEa7ual1_A")));
 				break;
 			case R.id.linkitNappiSimpsioPark:

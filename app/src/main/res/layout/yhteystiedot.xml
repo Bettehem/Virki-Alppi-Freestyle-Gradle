@@ -18,7 +18,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/yht_ryhmat"
-                    android:id="@+id/textView1"
                     android:layout_gravity="center_horizontal"
                     android:textSize="34sp" />
 
@@ -26,7 +25,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/kalevi_nimi"
-                    android:id="@+id/textView2"
                     android:layout_gravity="center_horizontal"
                     android:textSize="24sp" />
 
@@ -65,7 +63,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/yht_mainostus"
-                    android:id="@+id/textView3"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yht_mainostus"
                     android:layout_gravity="center_horizontal"
                     android:textSize="34sp" />
 
@@ -73,40 +77,257 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/ari_nimi"
-                    android:id="@+id/textView4"
                     android:layout_gravity="center_horizontal"
                     android:textSize="24sp" />
 
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="60">
+
+                    <Button
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:weightSum="60">
+                        android:text="@string/puhelu_nappi"
+                        android:id="@+id/ariPuhelu"
+                        android:layout_weight="20"
+                        style="@style/Nappi"/>
 
-                            <Button
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="@string/puhelu_nappi"
-                                android:id="@+id/ariPuhelu"
-                                android:layout_weight="20"
-                                style="@style/Nappi"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/viesti_nappi"
+                        android:id="@+id/ariViesti"
+                        android:layout_weight="20"
+                        style="@style/Nappi"/>
 
-                            <Button
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="@string/viesti_nappi"
-                                android:id="@+id/ariViesti"
-                                android:layout_weight="20"
-                                style="@style/Nappi"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sposti_nappi"
+                        android:id="@+id/ariSposti"
+                        android:layout_weight="20"
+                        style="@style/Nappi"/>
+                </LinearLayout>
 
-                            <Button
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="@string/sposti_nappi"
-                                android:id="@+id/ariSposti"
-                                android:layout_weight="20"
-                                style="@style/Nappi"/>
-                    </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yht_kilpailut"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tuomo_nimi"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="24sp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="60">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/puhelu_nappi"
+                        android:id="@+id/tuomoPuhelu"
+                        android:layout_weight="20"
+                        style="@style/Nappi"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/viesti_nappi"
+                        android:id="@+id/tuomoViesti"
+                        android:layout_weight="20"
+                        style="@style/Nappi"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sposti_nappi"
+                        android:id="@+id/tuomoSposti"
+                        android:layout_weight="20"
+                        style="@style/Nappi"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yht_tiedotus"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/timo_nimi"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="24sp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="60">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/puhelu_nappi"
+                        android:id="@+id/timoPuhelu"
+                        android:layout_weight="20"
+                        style="@style/Nappi"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/viesti_nappi"
+                        android:id="@+id/timoViesti"
+                        android:layout_weight="20"
+                        style="@style/Nappi"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sposti_nappi"
+                        android:id="@+id/timoSposti"
+                        android:layout_weight="20"
+                        style="@style/Nappi"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yht_ryhmavastaavat"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jarkko_nimi"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="24sp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="60">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/puhelu_nappi"
+                        android:id="@+id/jarkkoPuhelu"
+                        android:layout_weight="20"
+                        style="@style/Nappi"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/viesti_nappi"
+                        android:id="@+id/jarkkoViesti"
+                        android:layout_weight="20"
+                        style="@style/Nappi"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sposti_nappi"
+                        android:id="@+id/jarkkoSposti"
+                        android:layout_weight="20"
+                        style="@style/Nappi"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chris_nimi"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="24sp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="60">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/puhelu_nappi"
+                        android:id="@+id/chrisPuhelu"
+                        android:layout_weight="20"
+                        style="@style/Nappi"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/viesti_nappi"
+                        android:id="@+id/chrisViesti"
+                        android:layout_weight="20"
+                        style="@style/Nappi"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sposti_nappi"
+                        android:id="@+id/chrisSposti"
+                        android:layout_weight="20"
+                        style="@style/Nappi"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/valtteri_nimi"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="24sp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="60">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/puhelu_nappi"
+                        android:id="@+id/valtteriPuhelu"
+                        android:layout_weight="20"
+                        style="@style/Nappi"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/viesti_nappi"
+                        android:id="@+id/valtteriViesti"
+                        android:layout_weight="20"
+                        style="@style/Nappi"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sposti_nappi"
+                        android:id="@+id/valtteriSposti"
+                        android:layout_weight="20"
+                        style="@style/Nappi"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yht_ryhmavastaavat_lisateksti"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="24sp" />
             </LinearLayout>
         </ScrollView>
 </LinearLayout>

@@ -24,12 +24,15 @@
     <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
         <!--parent="@style/Widget.AppCompat.ActionBar">-->
         <item name="android:background">#2196F3</item>
+        <item name="android:textColor">@android:color/white</item>
     </style>
 
     <style name="Nappi" parent="android:Widget.Button">
 
         <item name="android:background">#03A9F4</item>
         <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">true</item>
     </style>
     
     

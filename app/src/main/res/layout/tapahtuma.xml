@@ -37,7 +37,8 @@
 				android:layout_height="wrap_content"
 				android:text="@string/tapahtuma_nappi_tulokset"
 				android:layout_width="match_parent"
-				android:id="@+id/tapahtumaNappiTulokset1"/>
+				android:id="@+id/tapahtumaNappiTulokset1"
+                style="@style/Nappi"/>
 
 			<TextView
 				android:layout_height="wrap_content"
@@ -52,7 +53,8 @@
 				android:layout_height="wrap_content"
 				android:text="@string/tapahtuma_nappi_tulokset"
 				android:layout_width="match_parent"
-				android:id="@+id/tapahtumaNappiTulokset2"/>
+				android:id="@+id/tapahtumaNappiTulokset2"
+                style="@style/Nappi"/>
 
 			<TextView
 				android:layout_height="wrap_content"
@@ -71,43 +73,50 @@
 				android:layout_height="wrap_content"
 				android:text="@string/tapahtuma_tulos_nappi2"
 				android:layout_width="match_parent"
-				android:id="@+id/tapahtumaNappiTulos2"/>
+				android:id="@+id/tapahtumaNappiTulos2"
+                style="@style/Nappi"/>
 
 			<Button
 				android:layout_height="wrap_content"
 				android:text="@string/tapahtuma_tulos_nappi3"
 				android:layout_width="match_parent"
-				android:id="@+id/tapahtumaNappiTulos3"/>
+				android:id="@+id/tapahtumaNappiTulos3"
+                style="@style/Nappi"/>
 
 			<Button
 				android:layout_height="wrap_content"
 				android:text="@string/tapahtuma_tulos_nappi4"
 				android:layout_width="match_parent"
-				android:id="@+id/tapahtumaNappiTulos4"/>
+				android:id="@+id/tapahtumaNappiTulos4"
+                style="@style/Nappi"/>
 
 			<Button
 				android:layout_height="wrap_content"
 				android:text="@string/tapahtuma_tulos_nappi5"
 				android:layout_width="match_parent"
-				android:id="@+id/tapahtumaNappiTulos5"/>
+				android:id="@+id/tapahtumaNappiTulos5"
+                style="@style/Nappi"/>
 
 			<Button
 				android:layout_height="wrap_content"
 				android:text="@string/tapahtuma_tulos_nappi6"
 				android:layout_width="match_parent"
-				android:id="@+id/tapahtumaNappiTulos6"/>
+				android:id="@+id/tapahtumaNappiTulos6"
+                style="@style/Nappi"/>
 
 			<Button
 				android:layout_height="wrap_content"
 				android:text="@string/tapahtuma_tulos_nappi7"
 				android:layout_width="match_parent"
-				android:id="@+id/tapahtumaNappiTulos7"/>
+				android:id="@+id/tapahtumaNappiTulos7"
+                style="@style/Nappi"/>
 
 			<Button
 				android:layout_height="wrap_content"
 				android:text="@string/tapahtuma_tulos_nappi8"
 				android:layout_width="match_parent"
-				android:id="@+id/tapahtumaNappiTulos8"/>
+				android:id="@+id/tapahtumaNappiTulos8"
+                style="@style/Nappi"/>
 
 		</LinearLayout>
 

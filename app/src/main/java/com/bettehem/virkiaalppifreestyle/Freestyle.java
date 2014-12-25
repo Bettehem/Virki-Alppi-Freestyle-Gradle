@@ -9,7 +9,7 @@ import android.net.*;
 
 public class Freestyle extends Activity implements View.OnClickListener
 {
-	Button nappi1;
+	Button lisatietoNappi, skiPassiNappi, hissilippuNappi;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
@@ -28,18 +28,28 @@ public class Freestyle extends Activity implements View.OnClickListener
 	}
 	
 	public void muuttujat(){
-		nappi1 = (Button) findViewById(R.id.freestyleNappiLinkki1);
+		lisatietoNappi = (Button) findViewById(R.id.freestyleLisatietoNappi);
+        skiPassiNappi = (Button) findViewById(R.id.freestyleSkiPassiNappi);
+        hissilippuNappi = (Button) findViewById(R.id.freestyleHissilippuNappi);
 		
-		nappi1.setOnClickListener(this);
+		lisatietoNappi.setOnClickListener(this);
+        skiPassiNappi.setOnClickListener(this);
+        hissilippuNappi.setOnClickListener(this);
 	}
 	
 	@Override
 	public void onClick(View p1)
 	{
 		switch (p1.getId()){
-			case R.id.freestyleNappiLinkki1:
-				startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.virkia-alppi.net/hakulomake.doc")));
+			case R.id.freestyleLisatietoNappi:
+				startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.simpsio.com/default.aspx?pageid=142")));
 				break;
+            case R.id.freestyleSkiPassiNappi:
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.skisport.fi/urheilijoille/lisenssit_ja_skipassit/skipassi-2014-2015/")));
+                break;
+            case R.id.freestyleHissilippuNappi:
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://simpsio.com/default.aspx?pageid=138")));
+                break;
 		}
 	}
 }
