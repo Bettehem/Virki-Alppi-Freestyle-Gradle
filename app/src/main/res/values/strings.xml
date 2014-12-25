@@ -2,6 +2,7 @@
 <resources>
 
     <string name="appversion">2.0.0</string>
+	<string name="versio_teksti">Sovellusversio:</string>
     <string name="app_name">Virkiä Alppi &amp; Freestyle</string>
 
 
@@ -134,7 +135,7 @@
 
 
 
-    <string name="tietoja_sovelluksesta">Sovelluksen kehittäjä:\nChris Mustola\n\nTämä sovellus on tehty www.virkia-alppi.net -verkkosivujen pohjalta mobiililaitteille sopivaksi.\nSovellukseen on lisätty ominaisuuksia, joita ei olisi mahdollista toteuttaa selaimessa, ja sovellusta voi myös käyttää ilman minkäänlaista verkkoyhteyttä!\n\n\n\nHaluatko yrityksellesi vastaavan sovelluksen?\nOta yhteyttä kehittäjään:</string>
+    <string name="tietoja_sovelluksesta">\nSovelluksen kehittäjä:\nChris Mustola\n\nTämä sovellus on tehty www.virkia-alppi.net -verkkosivujen pohjalta mobiililaitteille sopivaksi.\nSovellukseen on lisätty ominaisuuksia, joita ei olisi mahdollista toteuttaa selaimessa, ja sovellusta voi myös käyttää ilman minkäänlaista verkkoyhteyttä!\n\n\n\nHaluatko yrityksellesi vastaavan sovelluksen?\nOta yhteyttä kehittäjään:</string>
 
 
 </resources>

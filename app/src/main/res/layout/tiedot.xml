@@ -12,6 +12,20 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:orientation="vertical">
+			
+			<TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/versio_teksti"
+				android:textSize="18sp"
+				android:textColor="#ffffff"/>
+			
+			<TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appversion"
+				android:textSize="18sp"
+				android:textColor="#ffffff"/>
 
             <TextView
                 android:layout_width="fill_parent"
