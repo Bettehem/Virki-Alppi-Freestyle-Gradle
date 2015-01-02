@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/tausta">
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_height="wrap_content"
+                android:text="@string/etusivu_nappi"
+                android:layout_width="match_parent"
+                android:id="@+id/etusivuNappi"
+                style="@style/Nappi"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:text="@string/ryhma_nappi"
+                android:layout_width="match_parent"
+                android:id="@+id/ryhmaNappi"
+                style="@style/Nappi"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:text="@string/tapahtuma_nappi"
+                android:layout_width="match_parent"
+                android:id="@+id/tapahtumaNappi"
+                style="@style/Nappi"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:text="@string/linkit_nappi"
+                android:layout_width="match_parent"
+                android:id="@+id/linkitNappi"
+                style="@style/Nappi"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:text="@string/freestyle_nappi"
+                android:layout_width="match_parent"
+                android:id="@+id/freestyleNappi"
+                style="@style/Nappi"/>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <ImageButton
+                    android:layout_height="175dp"
+                    android:layout_width="match_parent"
+                    android:src="@drawable/virkialogo"
+                    android:layout_weight="50"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/virkiaNappi"
+                    android:background="@android:color/transparent"/>
+
+                <ImageButton
+                    android:layout_height="175dp"
+                    android:layout_width="match_parent"
+                    android:src="@drawable/simpsiologo"
+                    android:layout_weight="50"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/simpsioNappi"
+                    android:background="@android:color/transparent" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:text="@string/yhteistyo_nappi"
+                android:layout_width="match_parent"
+                android:id="@+id/yhteistyoNappi"
+                style="@style/Nappi"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
