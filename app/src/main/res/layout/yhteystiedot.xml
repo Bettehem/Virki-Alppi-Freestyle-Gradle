@@ -41,7 +41,7 @@
 				<Button
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:text="@string/puhelu_nappi"
+					android:text="@string/puhelu_nappi" android:visibility="invisible"
 					android:id="@+id/kaleviPuhelu"
 					android:layout_weight="20"
 					style="@style/Nappi"/>
@@ -49,7 +49,7 @@
 				<Button
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:text="@string/viesti_nappi"
+					android:text="@string/viesti_nappi" android:visibility="invisible"
 					android:id="@+id/kaleviViesti"
 					android:layout_weight="20"
 					style="@style/Nappi"/>
@@ -89,7 +89,7 @@
 				<Button
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:text="@string/puhelu_nappi"
+					android:text="@string/puhelu_nappi" android:visibility="invisible"
 					android:id="@+id/ariPuhelu"
 					android:layout_weight="20"
 					style="@style/Nappi"/>
@@ -97,7 +97,7 @@
 				<Button
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:text="@string/viesti_nappi"
+					android:text="@string/viesti_nappi" android:visibility="invisible"
 					android:id="@+id/ariViesti"
 					android:layout_weight="20"
 					style="@style/Nappi"/>
@@ -137,7 +137,7 @@
 				<Button
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:text="@string/puhelu_nappi"
+					android:text="@string/puhelu_nappi" android:visibility="invisible"
 					android:id="@+id/tuomoPuhelu"
 					android:layout_weight="20"
 					style="@style/Nappi"/>
@@ -145,7 +145,7 @@
 				<Button
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:text="@string/viesti_nappi"
+					android:text="@string/viesti_nappi" android:visibility="invisible"
 					android:id="@+id/tuomoViesti"
 					android:layout_weight="20"
 					style="@style/Nappi"/>
@@ -185,7 +185,7 @@
 				<Button
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:text="@string/puhelu_nappi"
+					android:text="@string/puhelu_nappi" android:visibility="invisible"
 					android:id="@+id/timoPuhelu"
 					android:layout_weight="20"
 					style="@style/Nappi"/>
@@ -193,7 +193,7 @@
 				<Button
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:text="@string/viesti_nappi"
+					android:text="@string/viesti_nappi" android:visibility="invisible"
 					android:id="@+id/timoViesti"
 					android:layout_weight="20"
 					style="@style/Nappi"/>
@@ -233,7 +233,7 @@
 				<Button
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:text="@string/puhelu_nappi"
+					android:text="@string/puhelu_nappi" android:visibility="invisible"
 					android:id="@+id/jarkkoPuhelu"
 					android:layout_weight="20"
 					style="@style/Nappi"/>
@@ -241,7 +241,7 @@
 				<Button
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:text="@string/viesti_nappi"
+					android:text="@string/viesti_nappi" android:visibility="invisible"
 					android:id="@+id/jarkkoViesti"
 					android:layout_weight="20"
 					style="@style/Nappi"/>
@@ -273,7 +273,7 @@
 				<Button
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:text="@string/puhelu_nappi"
+					android:text="@string/puhelu_nappi" android:visibility="invisible"
 					android:id="@+id/chrisPuhelu"
 					android:layout_weight="20"
 					style="@style/Nappi"/>
@@ -281,7 +281,7 @@
 				<Button
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:text="@string/viesti_nappi"
+					android:text="@string/viesti_nappi" android:visibility="invisible"
 					android:id="@+id/chrisViesti"
 					android:layout_weight="20"
 					style="@style/Nappi"/>
@@ -313,7 +313,7 @@
 				<Button
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:text="@string/puhelu_nappi"
+					android:text="@string/puhelu_nappi" android:visibility="invisible"
 					android:id="@+id/valtteriPuhelu"
 					android:layout_weight="20"
 					style="@style/Nappi"/>
@@ -321,7 +321,7 @@
 				<Button
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:text="@string/viesti_nappi"
+					android:text="@string/viesti_nappi" android:visibility="invisible"
 					android:id="@+id/valtteriViesti"
 					android:layout_weight="20"
 					style="@style/Nappi"/>

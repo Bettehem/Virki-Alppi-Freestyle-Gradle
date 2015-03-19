@@ -1,9 +1,11 @@
 package com.bettehem.virkia_alppi_freestyle;
 
 import android.app.*;
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.*;
+import android.telephony.TelephonyManager;
 import android.view.*;
 import android.content.res.*;
 import android.widget.Button;
@@ -13,6 +15,7 @@ public class Yhteystiedot extends Activity implements View.OnClickListener
     Button kaleviPuhelu, kaleviViesti, kaleviSposti, ariPuhelu, ariViesti, ariSposti, tuomoPuhelu, tuomoViesti, tuomoSposti, timoPuhelu, timoViesti, timoSposti, jarkkoPuhelu, jarkkoViesti, jarkkoSposti, chrisPuhelu, chrisViesti, chrisSposti, valtteriPuhelu, valtteriViesti, valtteriSposti;
     Intent emailIntent;
     String yhteystieto, aihe, spViesti, numero, viestiNimiTeksti;
+    TelephonyManager telephonyManager;
 
 
     @Override
@@ -43,6 +46,71 @@ public class Yhteystiedot extends Activity implements View.OnClickListener
         chris();
         valtteri();
 
+    }
+
+
+    public void telephonyManagerit(){
+        telephonyManager = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
+        int simKortinTila = telephonyManager.getSimState();
+        int puhelimenTila = telephonyManager.getPhoneType();
+
+        switch (puhelimenTila){
+            case TelephonyManager.PHONE_TYPE_NONE:
+                kaleviPuhelu.setVisibility(View.INVISIBLE);
+                kaleviViesti.setVisibility(View.INVISIBLE);
+
+                ariPuhelu.setVisibility(View.INVISIBLE);
+                ariViesti.setVisibility(View.INVISIBLE);
+
+                tuomoPuhelu.setVisibility(View.INVISIBLE);
+                tuomoViesti.setVisibility(View.INVISIBLE);
+
+                timoPuhelu.setVisibility(View.INVISIBLE);
+                timoViesti.setVisibility(View.INVISIBLE);
+
+                jarkkoPuhelu.setVisibility(View.INVISIBLE);
+                jarkkoViesti.setVisibility(View.INVISIBLE);
+
+                chrisPuhelu.setVisibility(View.INVISIBLE);
+                chrisViesti.setVisibility(View.INVISIBLE);
+
+                valtteriPuhelu.setVisibility(View.INVISIBLE);
+                valtteriViesti.setVisibility(View.INVISIBLE);
+                break;
+
+            default:
+                switch (simKortinTila){
+                    case TelephonyManager.SIM_STATE_READY:
+                        simAktiivinen();
+                        break;
+                }
+                break;
+        }
+
+    }
+
+    public void simAktiivinen(){
+
+        kaleviPuhelu.setVisibility(View.VISIBLE);
+        kaleviViesti.setVisibility(View.VISIBLE);
+
+        ariPuhelu.setVisibility(View.VISIBLE);
+        ariViesti.setVisibility(View.VISIBLE);
+
+        tuomoPuhelu.setVisibility(View.VISIBLE);
+        tuomoViesti.setVisibility(View.VISIBLE);
+
+        timoPuhelu.setVisibility(View.VISIBLE);
+        timoViesti.setVisibility(View.VISIBLE);
+
+        jarkkoPuhelu.setVisibility(View.VISIBLE);
+        jarkkoViesti.setVisibility(View.VISIBLE);
+
+        chrisPuhelu.setVisibility(View.VISIBLE);
+        chrisViesti.setVisibility(View.VISIBLE);
+
+        valtteriPuhelu.setVisibility(View.VISIBLE);
+        valtteriViesti.setVisibility(View.VISIBLE);
     }
 
 
